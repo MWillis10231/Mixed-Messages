@@ -10,3 +10,8 @@ const weatherAhead = ['stormy', 'calm', 'snowy', 'sunny', 'rainy', 'warm', 'hot'
 const people = ['pirate', 'thief', 'liar', 'cheat', 'honest man', 'honest woman', 'bartender', 'teacher', 'writer', 'journalist', 'smith', 'shopkeeper', 'statistician', 'scientist', 'politician', 'warrior', 'nomad', 'scholar', 'diplomat', 'lover', 'partner']
 const verbs = ['be wary of', 'look out for', 'expect', 'be vigilant of'],
 const peopleAction = ['help you', 'change your life', 'take something from you', 'help you repay a debt', 'take you on a journey', 'teach you something', 'help you learn', 'show you your mistakes', 'lie to you', 'buy something from you', 'sell something to you', 'help you forget your past', 'show you your future'];
+
+let aBody = astronomicalBodies[Math.floor(Math.random()*astronomicalBodies.length)]
+console.log(aBody);
+
+return `Hello fortune-seeker. I am the venerable Oracle of Delphi and I will tell you your future.`;
