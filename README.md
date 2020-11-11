@@ -32,4 +32,9 @@ Basic plan is as follows:
 3. Check it works (GIT BASH / VS)
 4. Use Git to push it to Github
 
-## Message Sources
+## Method
+ I created my own kind of horoscope based on nonsense astrology - "Mars is bright tonight", etc.. 
+ These are stored in a series of arrays, and the program chooses a random set using Math.Random. 
+ 
+ ## Follow-up ideas (might be too difficult at current programming experience)
+ Could you generate numbers from the day/time on a users computer? It might be nice to give some "authority" by some contextual info - i.e. "December will be dull for you, but in January you will meet someone new."
