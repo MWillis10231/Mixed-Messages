@@ -1,6 +1,12 @@
 # Mixed-Messages
 Learning web development project
 
+## Contents
+1. [About](#about)
+2. [Brief](#brief)
+3. [Plan](#plan)
+4. [Message Sources](#message-sources)
+
 ## About
 This project is part of the CodeAcademy Full-Stack Engineer course, which was redesigned in November 2020. 
 
