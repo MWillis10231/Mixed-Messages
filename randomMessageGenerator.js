@@ -21,12 +21,20 @@ let getSpecialMoon = specialMoon[Math.floor(Math.random()*specialMoon.length)];
 let getWindDirection = windDirection[Math.floor(Math.random()*windDirection.length)];
 let getAstrologicalTerm1 = astrologicalTerm1[Math.floor(Math.random()*astrologicalTerm1.length)];
 let getElement = element[Math.floor(Math.random()*element.length)];
-let getStarSign = starSign[Math.floor(Math.random()*starSign.length)];
+let getStarSign1 = starSign[Math.floor(Math.random()*starSign.length)];
+let getStarSign2 = starSign[Math.floor(Math.random()*starSign.length)];
 let getAstrologicalTerm2 = astrologicalTerm2[Math.floor(Math.random()*astrologicalTerm2.length)];
 let getWeatherAhead = weatherAhead[Math.floor(Math.random()*weatherAhead.length)];
 let getPerson = people[Math.floor(Math.random()*people.length)];
 let getVerb = verbs[Math.floor(Math.random()*verbs.length)];
 let getPeopleAction = peopleAction[Math.floor(Math.random()*peopleAction.length)];
+
+// To make sure that two different star signs are selected
+if (getStarSign1 === getStarSign2) {
+    while (getStarSign1 === getStarSign2) {
+        getStarSign2 = starSign[Math.floor(Math.random()*starSign.length)];
+    }
+}
 
 // Here a section to occasionally random select a special Moon 
 
@@ -39,3 +47,5 @@ if (specialMoonValue > 90) {
 // Below the console output with the selected values:
 
 console.log(`Hello fortune-seeker. I am the venerable Oracle of Delphi and I will tell you your future.`);
+console.log(`I have consulted the heavens and they have revealed their secrets to me.`);
+console.log(`The position of ${getAstronomicalBody}`);
