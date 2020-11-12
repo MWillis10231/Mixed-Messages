@@ -13,7 +13,7 @@ Learning web development project
 
 This project is part of the CodeAcademy Full-Stack Engineer course, which was redesigned in November 2020.
 
-Project start 11/11/2020.
+Project completed 12/11/2020.
 
 ## Brief
 
