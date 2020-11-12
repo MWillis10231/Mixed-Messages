@@ -5,7 +5,7 @@ Learning web development project
 1. [About](#about)
 2. [Brief](#brief)
 3. [Plan](#plan)
-4. [Message Sources](#message-sources)
+4. [Method](#method)
 
 ## About
 This project is part of the CodeAcademy Full-Stack Engineer course, which was redesigned in November 2020. 
@@ -34,7 +34,21 @@ Basic plan is as follows:
 
 ## Method
  I created my own kind of horoscope based on nonsense astrology - "Mars is bright tonight", etc.. 
- These are stored in a series of arrays, and the program chooses a random set using Math.Random. 
+ These are stored in a series of arrays, and the program chooses random options using Math.Random. They are easily expandable too. 
+
+
+ ### What it divines:
+ - The weather next month (and if there is a eclipse or blood moon)
+ - What age you will live to (and gives a response based on certain age ranges)
+ - Who you will meet in the next month
+ - What that person will do to you
  
- ## Follow-up ideas (might be too difficult at current programming experience)
- Could you generate numbers from the day/time on a users computer? It might be nice to give some "authority" by some contextual info - i.e. "December will be dull for you, but in January you will meet someone new."
+### Example:
+"Hello fortune-seeker. I am the venerable Oracle of Delphi and I will tell you your future.
+I have consulted the heavens and they have revealed their secrets to me.
+The position of Mars in the sky is ominous. The east wind and the waxing crescent moon have divined much. The weather next month will be wet.
+Mars is also in flux. Due to the element of earth, this suggests that you will live to be 89.
+You will have a long life!
+In addition, because Aquarius and Pisces are mutable, you will meet a bartender in the next few weeks.
+This person will sell something to you, so be vigilant of them!"
+
