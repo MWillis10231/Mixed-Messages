@@ -41,11 +41,15 @@ if (getStarSign1 === getStarSign2) {
 
 let specialMoonValue = Math.floor(Math.random()*100);
 let isSpecialMoon = false;
-if (specialMoonValue > 90) {
+if (specialMoonValue > 85) {
     isSpecialMoon = true;
 }
 
 // Below the console output with the selected values:
+/* (This was used to test the % of special moons to see if working)
+console.log(specialMoonValue);
+console.log(isSpecialMoon);
+*/
 
 console.log(`Hello fortune-seeker. I am the venerable Oracle of Delphi and I will tell you your future.`);
 if (isSpecialMoon === true) {
@@ -54,8 +58,10 @@ if (isSpecialMoon === true) {
 console.log(`I have consulted the heavens and they have revealed their secrets to me.`);
 console.log(`The position of ${getAstronomicalBody} in the sky is ominous. The ${getWindDirection} wind and the ${getMoonPhase} moon have divined much. The weather next month will be ${getWeatherAhead}.`);
 console.log(`${getAstronomicalBody} is also ${getAstrologicalTerm1}. Due to the element of ${getElement}, this suggests that you will live to be ${getRandomAge}.`);
-if (getRandomAge > 75) {
+if (getRandomAge > 100) {
     console.log(`This is a ripe old age indeed!`)
+} else if (getRandomAge > 75) {
+    console.log('You will have a long life!')
 } else {
     console.log(`I'm sorry to be the bearer of bad news!`)
 }
