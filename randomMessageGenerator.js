@@ -10,7 +10,7 @@ const starSign = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra'
 const astrologicalTerm2 = ['are aligned', 'are in transit', 'have strong synastry', 'have weak synastry', 'are cardinal', 'are fixed', 'are mutable', 'are in opposition', 'are on the cusp'];
 const weatherAhead = ['stormy', 'calm', 'snowy', 'sunny', 'rainy', 'warm', 'hot', 'cold', 'wet', 'humid', 'damp', 'dry'];
 const people = ['pirate', 'thief', 'liar', 'cheat', 'honest man', 'honest woman', 'bartender', 'teacher', 'writer', 'journalist', 'smith', 'shopkeeper', 'statistician', 'scientist', 'politician', 'warrior', 'nomad', 'scholar', 'diplomat', 'lover', 'partner']
-const verbs = ['be wary of', 'look out for', 'be vigilant of', 'keep and eye out for'];
+const verbs = ['be wary of', 'look out for', 'be vigilant of', 'keep an eye out for'];
 const peopleAction = ['help you', 'change your life', 'take something from you', 'help you repay a debt', 'take you on a journey', 'teach you something', 'help you learn', 'show you your mistakes', 'lie to you', 'buy something from you', 'sell something to you', 'help you forget your past', 'show you your future'];
 
 // The section below determines which values from the above arrays are randomly selected 
